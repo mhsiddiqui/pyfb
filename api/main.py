@@ -6,7 +6,7 @@ from collections import namedtuple
 
 class Facebook:
 
-	def __init__(self, APP_ID=None, APP_SECRET=None, VERSION='v6.0', LIMIT=80, JITTER=1.5, DEBUG=False)
+	def __init__(self, APP_ID=None, APP_SECRET=None, VERSION='v6.0', LIMIT=80, JITTER=1.5, DEBUG=False):
 		assert APP_ID is not None, "APP_ID is required"
 		assert APP_SECRET is not None, "APP_SECRET is required"
 		self.APP_ID = APP_ID
